@@ -1,0 +1,414 @@
+p,
+li {
+  line-height: 1.7;
+  color: #fff;
+}
+
+.hero {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(/images/img2/Personal/DAN_6889.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position-y: 20%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  position: absolute;
+  width: 680px;
+  top: 220px;
+  left: 20px;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 44px;
+}
+
+
+.hero-links{
+    margin-top: 14px;
+}
+
+.hero-link{
+    border-radius: 16px;
+    padding: 6px 10px;
+    background-color: var(--dark);
+    color: #fff;
+    text-transform: capitalize;
+    transition: all .3s ease;
+}
+
+.hero-link:hover{
+    background-color: #000000;
+}
+
+.hero-link .fa{
+    font-size: 14px;
+}
+
+._1{
+    margin-right: 6px;
+}
+
+.contact-section {
+  background-color: var(--dark);
+  height: 600px;
+  padding: 100px 60px;
+  text-align: center;
+  color: #9da1a5;
+}
+
+.contact-section h2 {
+  margin-top: 40px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.contact-section p {
+  font-size: 14px;
+  color: #9da1a5;
+}
+
+.contact-grid {
+  width: 1200px;
+  display: grid;
+  margin: 50px auto 0;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 16px;
+}
+
+.contact-grid .col {
+  width: 280px;
+  background-color: var(--gray-dark);
+  padding: 26px;
+  transform: scale(1);
+  transition: all .4s ease;
+}
+
+.contact-grid .col:hover {
+  transform: scale(1.02);
+}
+
+.contact-grid .col h3 {
+  font-size: 18px;
+  color: #fff;
+}
+
+.contact-grid .col div p {
+  font-size: 13px;
+}
+
+.contact-grid .col a {
+    font-size: 14px;
+    color: #9da1a5;
+}
+
+.contact-grid .col .fa {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:1280px){
+  .hero {
+    height: 600px;
+    background-position-y: 20%;
+  }
+  
+  .hero-content {
+    position: absolute;
+    width: 680px;
+    top: 220px;
+    left: 20px;
+    color: #fff;
+  }
+  
+  .hero-content h1 {
+    font-size: 40px;
+  }
+  
+  .hero-content h3{
+      font-size: 16px;
+  }
+  
+  .hero-links{
+      margin-top: 14px;
+  }
+  
+  .hero-link{
+      border-radius: 16px;
+      padding: 6px 10px;
+      background-color: var(--dark);
+      color: #fff;
+      text-transform: capitalize;
+  }
+  
+  .hero-link:hover{
+      background-color: #313437;
+  }
+  
+  .hero-link .fa{
+      font-size: 14px;
+  }
+  
+  ._1{
+      margin-right: 6px;
+  }
+  
+  .contact-section {
+    height: 600px;
+    padding: 100px 30px;
+  }
+  
+  .contact-section h2 {
+    margin-top: 100px;
+    font-size: 16px;
+  }
+  
+  .contact-section p {
+    font-size: 14px;
+  }
+  
+  .contact-grid {
+    width: 900px;
+    display: grid;
+    margin: 50px auto 0;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .contact-grid .col {
+    width: 220px;
+    padding: 24px 4px;
+  }
+  
+  .contact-grid .col h3 {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .contact-grid .col a {
+      font-size: 14px;
+      color: #9da1a5;
+  }
+  
+  .contact-grid .col .fa {
+      font-size: 24px;
+      margin-bottom: 10px;
+  }
+}
+
+@media (max-width:991px){
+  
+  .contact-section {
+    height: 600px;
+    padding: 100px 30px;
+  }
+  
+  .contact-section h2 {
+    margin-top: 100px;
+    font-size: 16px;
+  }
+  
+  .contact-section p {
+    font-size: 14px;
+  }
+  
+  .contact-grid {
+    width: 900px;
+    display: grid;
+    margin: 50px auto 0;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .contact-grid .col {
+    width: 200px;
+    height: 120px;
+    padding: 24px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-grid .col h3 {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .contact-grid .col a {
+      font-size: 14px;
+      color: #9da1a5;
+  }
+  
+  .contact-grid .col .fa {
+      font-size: 24px;
+      margin: 0px 4px 0px 0px;
+  }
+}
+
+@media (max-width:860px){
+  
+  .contact-section {
+    height: 600px;
+    padding: 100px 30px;
+  }
+  
+  .contact-section h2 {
+    margin-top: 60px;
+    font-size: 16px;
+  }
+  
+  .contact-section p {
+    font-size: 14px;
+  }
+  
+  .contact-grid {
+    width: 800px;
+    display: grid;
+    margin: 50px auto 0;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .contact-grid .col {
+    width: 400px;
+    height: 120px;
+    padding: 24px 12px;
+    display: block;
+  }
+  
+  .contact-grid .col h3 {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .contact-grid .col a {
+      font-size: 14px;
+      color: #9da1a5;
+  }
+  
+  .contact-grid .col .fa {
+      font-size: 24px;
+      margin: 0px 0px 0px 10px;
+  }
+}
+
+@media (max-width:767px){
+  
+  .contact-section {
+    height: 600px;
+    padding: 100px 30px;
+  }
+  
+  .contact-grid {
+    width: 680px;
+    display: grid;
+    margin: 50px auto 0;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .contact-grid .col {
+    width: 360px;
+    display: block;
+  }
+  
+}
+
+@media (max-width:680px){
+
+  .hero-content {
+    width: 600px;
+  }
+  
+  .contact-section {
+    height: 600px;
+    padding: 100px 30px;
+  }
+  
+  .contact-grid {
+    width: 600px;
+    display: grid;
+    margin: 50px auto 0;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .contact-grid .col {
+    width: 300px;
+    display: block;
+  }
+  
+}
+
+@media (max-width:594px){
+
+  .hero-content {
+    width: 540px;
+  }
+  
+  .contact-section {
+    height: 600px;
+    padding: 100px 30px;
+  }
+  
+  .contact-grid {
+    width: 540px;
+    display: grid;
+    margin: 30px auto 0;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .contact-grid .col {
+    width: 280px;
+    display: block;
+  }
+  
+}
+
+
+@media (max-width:480px){
+
+  .hero-content {
+    width: 400px;
+  }
+  
+  .contact-section {
+    height: 760px;
+    padding: 70px 30px;
+  }
+
+  .contact-section h2 {
+    margin-top: 0px;
+  }
+  
+  .contact-grid {
+    width: 400px;
+    display: grid;
+    margin: 70px auto;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .contact-grid .col {
+    width: 400px;
+    display: block;
+  }
+  
+}
